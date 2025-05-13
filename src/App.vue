@@ -2,13 +2,15 @@
 import UserInfo from './components/UserInfo.vue'
 import AttributesExample from './components/AttributesExample.vue'
 import CalculationsExample from './components/CalculationsExample.vue'
+import ArraysExample from './components/ArraysExample.vue'
 
 export default {
   name: 'App',
   components: {
     UserInfo,
     AttributesExample,
-    CalculationsExample
+    CalculationsExample,
+    ArraysExample
   }
 }
 </script>
@@ -18,6 +20,7 @@ export default {
     <UserInfo />
     <AttributesExample />
     <CalculationsExample />
+    <ArraysExample />
   </div>
 </template>
 
