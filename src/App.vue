@@ -1,16 +1,23 @@
 <script>
-import newStyletext from './components/newStyletext.vue';
+import InputText from './components/InputText.vue';
+import SquareNumber from './components/SquareNumber.vue';
+import UpperCaseText from './components/UpperCaseText.vue';
 export default {
   name: 'App',
   components: {
-      newStyletext
+      InputText,
+      SquareNumber,
+      UpperCaseText 
+
  }
 }
 </script>
 
 <template>
   <div>
-    <newStyletext/>
+    <InputText/>
+    <SquareNumber/>
+    <UpperCaseText />
   </div>
 </template>
 
