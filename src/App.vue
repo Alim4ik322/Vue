@@ -1,17 +1,17 @@
 <script>
-import EventModifiersExample from './components/EventModifiersExample.vue'
+import ConditionalExample from './components/ConditionalExample.vue'
 
 export default {
   name: 'App',
   components: {
-    EventModifiersExample
+    ConditionalExample
   }
 }
 </script>
 
 <template>
   <div>
-    <EventModifiersExample />
+    <ConditionalExample />
   </div>
 </template>
 
