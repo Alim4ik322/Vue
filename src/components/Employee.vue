@@ -1,11 +1,6 @@
 <script>
 export default {
-  data() {
-    return {
-      name: 'Алим',
-      position: 'Разработчик'
-    }
-  }
+  props: ['name', 'surname', 'age'] // Получаем пропсы от родительского компонента
 }
 </script>
 
@@ -13,7 +8,8 @@ export default {
   <div>
     <h3>Информация о сотруднике</h3>
     <p>Имя: {{ name }}</p>
-    <p>Должность: {{ position }}</p>
+    <p>Фамилия: {{ surname }}</p>
+    <p>Возраст: {{ age }}</p>
   </div>
 </template>
 

@@ -10,7 +10,8 @@ export default {
 
 <template>
   <div>
-    <Employee/>
+    <h2>Главный компонент</h2>
+    <Employee name="Михаил"e="Иванов" age="30" />
   </div>
 </template>
 
