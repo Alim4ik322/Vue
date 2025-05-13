@@ -3,6 +3,7 @@ import UserInfo from './components/UserInfo.vue'
 import AttributesExample from './components/AttributesExample.vue'
 import CalculationsExample from './components/CalculationsExample.vue'
 import ArraysExample from './components/ArraysExample.vue'
+import ObjectsExample from './components/ObjectsExample.vue'
 
 export default {
   name: 'App',
@@ -10,7 +11,8 @@ export default {
     UserInfo,
     AttributesExample,
     CalculationsExample,
-    ArraysExample
+    ArraysExample,
+    ObjectsExample
   }
 }
 </script>
@@ -21,6 +23,7 @@ export default {
     <AttributesExample />
     <CalculationsExample />
     <ArraysExample />
+    <ObjectsExample />
   </div>
 </template>
 
