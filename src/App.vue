@@ -1,17 +1,17 @@
 <script>
-import InvertedConditionExample from './components/InvertedConditionExample.vue'
+import ReactiveConditionExample from './components/ReactiveConditionExample.vue'
 
 export default {
   name: 'App',
   components: {
-    InvertedConditionExample
+    ReactiveConditionExample
   }
 }
 </script>
 
 <template>
   <div>
-    <InvertedConditionExample />
+    <ReactiveConditionExample />
   </div>
 </template>
 
