@@ -1,22 +1,38 @@
 <script>
-import EventButton from './components/EventButton.vue';
+import Employee from './components/Employee.vue';
+
 export default {
-  name: 'App',
   components: {
-   EventButton
- }, 
+    Employee
+  },
+  data() {
+    return {
+      employees: [
+        { id: 1, name: 'Алим', salary: 1000, age: 30 },
+        { id: 2, name: 'Иван', salary: 2000, age: 40 },
+        { id: 3, name: 'Мария', salary: 3000, age: 50 }
+      ]
+    }
+  },
   methods: {
-    handleEvent() {
-      alert('Событие испущено!');
+    removeEmployee(id) {
+      this.employees = this.employees.filter(employee => employee.id !== id);
     }
   }
 }
 </script>
-
 <template>
   <div>
-    <h2>Главный компонент</h2>
-    <EventButton @customEvent="handleEvent" />
+    <h2>Список сотрудников</h2>
+    <Employee
+      v-for="employee in employees"
+      :key="employee.id"
+      :id="employee.id"
+      :name="employee.name"
+      :salary="employee.salary"
+      :age="employee.age"
+      @remove="removeEmployee"
+    />
   </div>
 </template>
 
