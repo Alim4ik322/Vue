@@ -1,12 +1,14 @@
 <script>
 import UserInfo from './components/UserInfo.vue'
 import AttributesExample from './components/AttributesExample.vue'
+import CalculationsExample from './components/CalculationsExample.vue'
 
 export default {
   name: 'App',
   components: {
     UserInfo,
-    AttributesExample
+    AttributesExample,
+    CalculationsExample
   }
 }
 </script>
@@ -15,6 +17,7 @@ export default {
   <div>
     <UserInfo />
     <AttributesExample />
+    <CalculationsExample />
   </div>
 </template>
 
