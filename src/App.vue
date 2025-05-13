@@ -1,13 +1,13 @@
 <script>
-import Employee from './components/Employee.vue';
+import EventButton from './components/EventButton.vue';
 export default {
   name: 'App',
   components: {
-   Employee
+   EventButton
  }, 
   methods: {
-    func(name) {
-      console.log('Полученное имя:', name);
+    handleEvent() {
+      alert('Событие испущено!');
     }
   }
 }
@@ -15,8 +15,8 @@ export default {
 
 <template>
   <div>
-     <h2>Главный компонент</h2>
-    <Employee name="Алим" @sendName="func" />
+    <h2>Главный компонент</h2>
+    <EventButton @customEvent="handleEvent" />
   </div>
 </template>
 

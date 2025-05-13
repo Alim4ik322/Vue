@@ -1,13 +1,14 @@
 <script>
 export default {
-  props: ['name'], // Получаем имя работника
-  emits: ['sendName'] // Объявляем событие
+  props: ['name', 'salary'], // Получаем данные о работнике
+  emits: ['sendData']
 }
 </script>
 
 <template>
   <div>
     <p>Имя: {{ name }}</p>
-    <button @click="$emit('sendName', name)">Передать имя</button>
+    <p>Зарплата: {{ salary }}</p>
+    <button @click="$emit('sendData', name, salary)">Передать данные</button>
   </div>
 </template>
