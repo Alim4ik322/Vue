@@ -1,11 +1,9 @@
 <script>
-import nativeLanguage from './components/nativeLanguage.vue';
-import selectedLanguage from './components/selectedLanguage.vue';
+import CitySelection from './components/CitySelection.vue';
 export default {
   name: 'App',
   components: {
-     selectedLanguage,
-     nativeLanguage
+     CitySelection
 
  }
 }
@@ -13,8 +11,7 @@ export default {
 
 <template>
   <div>
-   <nativeLanguage />
-   <selectedLanguage/>
+   <CitySelection />
   </div>
 </template>
 
