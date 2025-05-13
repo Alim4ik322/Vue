@@ -1,17 +1,17 @@
 <script>
-import ObjectLoopExample from './components/ObjectLoopExample.vue'
+import ArrayOfObjectsExample from './components/ArrayOfObjectsExample.vue'
 
 export default {
   name: 'App',
   components: {
-    ObjectLoopExample
+    ArrayOfObjectsExample
   }
 }
 </script>
 
 <template>
   <div>
-    <ObjectLoopExample />
+    <ArrayOfObjectsExample />
   </div>
 </template>
 
