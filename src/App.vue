@@ -1,17 +1,17 @@
 <script>
-import ReactivityExample from './components/ReactivityExample.vue'
+import ComputedExample from './components/ComputedExample.vue'
 
 export default {
   name: 'App',
   components: {
-    ReactivityExample
+    ComputedExample
   }
 }
 </script>
 
 <template>
   <div>
-    <ReactivityExample />
+    <ComputedExample />
   </div>
 </template>
 
