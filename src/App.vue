@@ -1,17 +1,16 @@
 <script>
-import StyledText from './components/StyledText.vue';
-
+import VisibilityComponent from './components/VisibilityComponent.vue';
 export default {
   name: 'App',
   components: {
-    StyledText
+    VisibilityComponent
   }
 }
 </script>
 
 <template>
   <div>
-         <StyledText />
+        <VisibilityComponent />
   </div>
 </template>
 
