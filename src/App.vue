@@ -1,17 +1,17 @@
 <script>
-import RangeLoopExample from './components/RangeLoopExample.vue'
+import ConditionalLoopExample from './components/ConditionalLoopExample.vue'
 
 export default {
   name: 'App',
   components: {
-    RangeLoopExample
+    ConditionalLoopExample
   }
 }
 </script>
 
 <template>
   <div>
-    <RangeLoopExample />
+    <ConditionalLoopExample />
   </div>
 </template>
 
