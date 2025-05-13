@@ -1,21 +1,23 @@
 <script>
-import InputToggle1 from './components/InputToggle1.vue';
-import InputToggle2 from './components/InputToggle2.vue';
+import KeyModifiers from './components/KeyModifiers.vue';
+import CtrlClick from './components/CtrlClick.vue';
+import MouseClick from './components/MouseClick.vue';
 
 export default {
   name: 'App',
   components: {
-    InputToggle1,
-    InputToggle2
+    KeyModifiers,
+    CtrlClick,
+    MouseClick
  }
 }
 </script>
 
 <template>
   <div>
-  <InputToggle1 />
-  <InputToggle2 />
-
+  <KeyModifiers />
+  <CtrlClick />
+  <MouseClick />
   </div>
 </template>
 
