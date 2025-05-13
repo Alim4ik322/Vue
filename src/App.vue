@@ -1,17 +1,17 @@
 <script>
-import ReactiveConditionExample from './components/ReactiveConditionExample.vue'
+import ToggleExample from './components/ToggleExample.vue'
 
 export default {
   name: 'App',
   components: {
-    ReactiveConditionExample
+    ToggleExample
   }
 }
 </script>
 
 <template>
   <div>
-    <ReactiveConditionExample />
+    <ToggleExample />
   </div>
 </template>
 
