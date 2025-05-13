@@ -1,21 +1,17 @@
 <script>
-import ItemList1 from './components/ItemList1.vue';
-import ItemList2 from './components/ItemList2.vue';
-
+import ClickableList from './components/ClickableList.vue';
 
 export default {
   name: 'App',
   components: {
-   ItemList1,
-   ItemList2
+   ClickableList
  }
 }
 </script>
 
 <template>
   <div>
-    <ItemList1/>
-    <ItemList2/>
+    <ClickableList/>
   </div>
 </template>
 
