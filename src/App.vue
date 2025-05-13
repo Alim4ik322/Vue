@@ -1,16 +1,17 @@
 <script>
-import DynamicClass from './components/DynamicClass.vue';
+import DynamicStyles from './components/DynamicStyles.vue';
 export default {
   name: 'App',
   components: {
- DynamicClass
+     DynamicStyles
  }
 }
 </script>
 
 <template>
   <div>
-       <DynamicClass />
+        <h1>Пример динамических классов</h1>
+    <DynamicStyles />
   </div>
 </template>
 
