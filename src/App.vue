@@ -1,15 +1,10 @@
 <script>
-import SquareRoot from './components/SquareRoot.vue';
-import SumNumbers from './components/SumNumbers.vue';
-import SwapText from './components/SwapText.vue';
-import SplitName from './components/SplitName.vue';
+import TextProcessor from './components/TextProcessor.vue';
+
 export default {
   name: 'App',
   components: {
-      SquareRoot,
-      SumNumbers,
-      SwapText,
-      SplitName
+      TextProcessor
 
  }
 }
@@ -17,10 +12,7 @@ export default {
 
 <template>
   <div>
-    <SquareRoot/>
-    <SumNumbers/>
-    <SwapText/>
-    <SplitName/>
+    <TextProcessor/>
   </div>
 </template>
 
