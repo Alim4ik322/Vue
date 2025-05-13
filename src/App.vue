@@ -1,16 +1,16 @@
 <script>
-import VisibilityComponent from './components/VisibilityComponent.vue';
+import DynamicClass from './components/DynamicClass.vue';
 export default {
   name: 'App',
   components: {
-    VisibilityComponent
-  }
+ DynamicClass
+ }
 }
 </script>
 
 <template>
   <div>
-        <VisibilityComponent />
+       <DynamicClass />
   </div>
 </template>
 
