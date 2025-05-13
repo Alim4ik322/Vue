@@ -1,29 +1,17 @@
 <script>
-import UserInfo from './components/UserInfo.vue'
-import AttributesExample from './components/AttributesExample.vue'
-import CalculationsExample from './components/CalculationsExample.vue'
-import ArraysExample from './components/ArraysExample.vue'
-import ObjectsExample from './components/ObjectsExample.vue'
+import MethodsExample from './components/MethodsExample.vue'
 
 export default {
   name: 'App',
   components: {
-    UserInfo,
-    AttributesExample,
-    CalculationsExample,
-    ArraysExample,
-    ObjectsExample
+    MethodsExample
   }
 }
 </script>
 
 <template>
   <div>
-    <UserInfo />
-    <AttributesExample />
-    <CalculationsExample />
-    <ArraysExample />
-    <ObjectsExample />
+    <MethodsExample />
   </div>
 </template>
 
