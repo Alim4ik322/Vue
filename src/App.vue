@@ -1,17 +1,25 @@
 <script>
-import User from './components/User.vue';
+import Employee from './components/Employee.vue';
+import Employee from './components/Employee.vue';
 export default {
   name: 'App',
   components: {
-   User
- }
+   Employee
+ }, 
+ data() {
+    return {
+      employeeName: 'Алим',
+      employeeSalary: 50000,
+      employeeAge: 30
+    }
+  }
 }
 </script>
 
 <template>
   <div>
      <h2>Главный компонент</h2>
-    <User :items="itemList" />
+    <Employee :items="itemList" />
   </div>
 </template>
 

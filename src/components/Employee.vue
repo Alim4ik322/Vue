@@ -1,6 +1,6 @@
 <script>
 export default {
-  props: ['name', 'surname', 'age'] // Получаем пропсы от родительского компонента
+  props: ['name', 'salary', 'age'] // Получаем данные от родителя
 }
 </script>
 
@@ -8,7 +8,7 @@ export default {
   <div>
     <h3>Информация о сотруднике</h3>
     <p>Имя: {{ name }}</p>
-    <p>Фамилия: {{ surname }}</p>
+    <p>Зарплата: {{ salary }}</p>
     <p>Возраст: {{ age }}</p>
   </div>
 </template>
