@@ -1,17 +1,17 @@
 <script>
-import ElseIfExample from './components/ElseIfExample.vue'
+import ConditionalGroupExample from './components/ConditionalGroupExample.vue'
 
 export default {
   name: 'App',
   components: {
-    ElseIfExample
+    ConditionalGroupExample
   }
 }
 </script>
 
 <template>
   <div>
-    <ElseIfExample />
+    <ConditionalGroupExample />
   </div>
 </template>
 
