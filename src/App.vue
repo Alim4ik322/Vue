@@ -1,10 +1,12 @@
 <script>
 import UserInfo from './components/UserInfo.vue'
+import AttributesExample from './components/AttributesExample.vue'
 
 export default {
   name: 'App',
   components: {
-    UserInfo
+    UserInfo,
+    AttributesExample
   }
 }
 </script>
@@ -12,6 +14,7 @@ export default {
 <template>
   <div>
     <UserInfo />
+    <AttributesExample />
   </div>
 </template>
 
