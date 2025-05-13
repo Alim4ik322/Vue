@@ -1,17 +1,17 @@
 <script>
-import ToggleExample from './components/ToggleExample.vue'
+import ElseExample from './components/ElseExample.vue'
 
 export default {
   name: 'App',
   components: {
-    ToggleExample
+    ElseExample
   }
 }
 </script>
 
 <template>
   <div>
-    <ToggleExample />
+    <ElseExample />
   </div>
 </template>
 
