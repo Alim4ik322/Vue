@@ -1,17 +1,16 @@
 <script>
-import EmployeeTable from './components/EmployeeTable.vue';
-
+import Employee from './components/Employee.vue';
 export default {
   name: 'App',
   components: {
-   EmployeeTable
+   Employee
  }
 }
 </script>
 
 <template>
   <div>
-    <EmployeeTable/>
+    <Employee/>
   </div>
 </template>
 
