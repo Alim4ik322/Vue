@@ -1,17 +1,17 @@
 <script>
-import KeyExample from './components/KeyExample.vue'
+import ReactiveArrayExample from './components/ReactiveArrayExample.vue'
 
 export default {
   name: 'App',
   components: {
-    KeyExample
+    ReactiveArrayExample
   }
 }
 </script>
 
 <template>
   <div>
-    <KeyExample />
+    <ReactiveArrayExample />
   </div>
 </template>
 
