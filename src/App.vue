@@ -1,17 +1,17 @@
 <script>
-import StyledParagraph from './components/StyledParagraph.vue';
+import StyledText from './components/StyledText.vue';
 
 export default {
   name: 'App',
   components: {
-        StyledParagraph
+    StyledText
   }
 }
 </script>
 
 <template>
   <div>
-      <StyledParagraph />
+         <StyledText />
   </div>
 </template>
 
