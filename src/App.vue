@@ -1,23 +1,21 @@
 <script>
-import KeyModifiers from './components/KeyModifiers.vue';
-import CtrlClick from './components/CtrlClick.vue';
-import MouseClick from './components/MouseClick.vue';
+import ItemList1 from './components/ItemList1.vue';
+import ItemList2 from './components/ItemList2.vue';
+
 
 export default {
   name: 'App',
   components: {
-    KeyModifiers,
-    CtrlClick,
-    MouseClick
+   ItemList1,
+   ItemList2
  }
 }
 </script>
 
 <template>
   <div>
-  <KeyModifiers />
-  <CtrlClick />
-  <MouseClick />
+    <ItemList1/>
+    <ItemList2/>
   </div>
 </template>
 
