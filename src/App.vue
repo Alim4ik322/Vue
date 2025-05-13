@@ -1,17 +1,17 @@
 <script>
-import Employee from './components/Employee.vue';
+import User from './components/User.vue';
 export default {
   name: 'App',
   components: {
-   Employee
+   User
  }
 }
 </script>
 
 <template>
   <div>
-    <h2>Главный компонент</h2>
-    <Employee name="Михаил"e="Иванов" age="30" />
+     <h2>Главный компонент</h2>
+    <User :items="itemList" />
   </div>
 </template>
 
