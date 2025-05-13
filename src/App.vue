@@ -1,17 +1,17 @@
 <script>
-import EventsExample from './components/EventsExample.vue'
+import MethodsDataExample from './components/MethodsDataExample.vue'
 
 export default {
   name: 'App',
   components: {
-    EventsExample
+    MethodsDataExample
   }
 }
 </script>
 
 <template>
   <div>
-    <EventsExample />
+    <MethodsDataExample />
   </div>
 </template>
 
