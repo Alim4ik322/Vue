@@ -1,17 +1,17 @@
 <script>
-import ShowExample from './components/ShowExample.vue'
+import ArrayLoopExample from './components/ArrayLoopExample.vue'
 
 export default {
   name: 'App',
   components: {
-    ShowExample
+    ArrayLoopExample
   }
 }
 </script>
 
 <template>
   <div>
-    <ShowExample />
+    <ArrayLoopExample />
   </div>
 </template>
 
