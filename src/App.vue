@@ -1,17 +1,17 @@
 <script>
-import KeyExample from './components/KeyExample.vue'
+import MyComponent from './components/MyComponent.vue';
 
 export default {
   name: 'App',
   components: {
-    KeyExample
+    MyComponent // Исправленный импорт
   }
 }
 </script>
 
 <template>
   <div>
-    <KeyExample />
+    <MyComponent />
   </div>
 </template>
 
