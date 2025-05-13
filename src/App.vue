@@ -1,17 +1,24 @@
 <script>
-import CitySelection from './components/CitySelection.vue';
+import DateSelector from './components/DateSelector.vue';
+import WeekdaySelector from './components/WeekdaySelector.vue';
+import FullDateSelector from './components/FullDateSelector.vue';
 export default {
   name: 'App',
   components: {
-     CitySelection
-
+     DateSelector,
+     WeekdaySelector,
+     FullDateSelector
  }
 }
 </script>
 
 <template>
   <div>
-   <CitySelection />
+  <DateSelector />
+  <WeekdaySelector/>
+  <FullDateSelector />
+
+
   </div>
 </template>
 
