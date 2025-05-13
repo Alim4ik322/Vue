@@ -1,17 +1,17 @@
 <script>
-import ElseExample from './components/ElseExample.vue'
+import ComplexConditionExample from './components/ComplexConditionExample.vue'
 
 export default {
   name: 'App',
   components: {
-    ElseExample
+    ComplexConditionExample
   }
 }
 </script>
 
 <template>
   <div>
-    <ElseExample />
+    <ComplexConditionExample />
   </div>
 </template>
 
