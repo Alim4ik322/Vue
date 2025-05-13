@@ -1,17 +1,17 @@
 <script>
-import ArrayLoopExample from './components/ArrayLoopExample.vue'
+import ArrayKeysExample from './components/ArrayKeysExample.vue'
 
 export default {
   name: 'App',
   components: {
-    ArrayLoopExample
+    ArrayKeysExample
   }
 }
 </script>
 
 <template>
   <div>
-    <ArrayLoopExample />
+    <ArrayKeysExample />
   </div>
 </template>
 
