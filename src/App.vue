@@ -1,17 +1,17 @@
 <script>
-import ClickableList from './components/ClickableList.vue';
+import EmployeeTable from './components/EmployeeTable.vue';
 
 export default {
   name: 'App',
   components: {
-   ClickableList
+   EmployeeTable
  }
 }
 </script>
 
 <template>
   <div>
-    <ClickableList/>
+    <EmployeeTable/>
   </div>
 </template>
 
