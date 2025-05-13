@@ -1,13 +1,15 @@
 <script>
-import InputText from './components/InputText.vue';
-import SquareNumber from './components/SquareNumber.vue';
-import UpperCaseText from './components/UpperCaseText.vue';
+import SquareRoot from './components/SquareRoot.vue';
+import SumNumbers from './components/SumNumbers.vue';
+import SwapText from './components/SwapText.vue';
+import SplitName from './components/SplitName.vue';
 export default {
   name: 'App',
   components: {
-      InputText,
-      SquareNumber,
-      UpperCaseText 
+      SquareRoot,
+      SumNumbers,
+      SwapText,
+      SplitName
 
  }
 }
@@ -15,9 +17,10 @@ export default {
 
 <template>
   <div>
-    <InputText/>
-    <SquareNumber/>
-    <UpperCaseText />
+    <SquareRoot/>
+    <SumNumbers/>
+    <SwapText/>
+    <SplitName/>
   </div>
 </template>
 
