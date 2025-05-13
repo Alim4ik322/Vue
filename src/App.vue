@@ -15,8 +15,15 @@ export default {
     }
   },
   methods: {
-    removeEmployee(id) {
-      this.employees = this.employees.filter(employee => employee.id !== id);
+    updateEmployee(id, name, salary, age) {
+      this.employees = this.employees.map(employee => {
+        if (employee.id === id) {
+          employee.name = name;
+          employee.salary = salary;
+          employee.age = age;
+        }
+        return employee;
+      });
     }
   }
 }
