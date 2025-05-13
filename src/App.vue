@@ -1,10 +1,9 @@
 <script>
-import TextProcessor from './components/TextProcessor.vue';
-
+import CheckboxVisibility from './components/CheckboxVisibility.vue';
 export default {
   name: 'App',
   components: {
-      TextProcessor
+     CheckboxVisibility
 
  }
 }
@@ -12,7 +11,7 @@ export default {
 
 <template>
   <div>
-    <TextProcessor/>
+   <CheckboxVisibility />
   </div>
 </template>
 
