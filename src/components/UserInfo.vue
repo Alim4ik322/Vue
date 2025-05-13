@@ -9,7 +9,7 @@
 export default {
   data() {
     return {
-      name: 'johhn',
+      name: 'john',
       surn: 'smit'
     }
   }
