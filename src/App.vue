@@ -1,16 +1,16 @@
 <script>
-import Checklist from './components/Checklist.vue';
+import Notebook from './components/Notebook.vue';
 
 export default {
   components: {
-    Checklist
+    Notebook
   }
 }
 </script>
 
 <template>
   <div>
-    <Checklist />
+    <Notebook />
   </div>
 </template>
 
