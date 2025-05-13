@@ -1,9 +1,9 @@
 <script>
-import CheckboxVisibility from './components/CheckboxVisibility.vue';
+import LanguageSelection from './components/LanguageSelection.vue';
 export default {
   name: 'App',
   components: {
-     CheckboxVisibility
+     LanguageSelection
 
  }
 }
@@ -11,7 +11,8 @@ export default {
 
 <template>
   <div>
-   <CheckboxVisibility />
+   <LanguageSelection />
+
   </div>
 </template>
 
