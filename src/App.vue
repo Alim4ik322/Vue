@@ -1,17 +1,17 @@
 <script>
-import MethodParamsExample from './components/MethodParamsExample.vue'
+import ReactivityExample from './components/ReactivityExample.vue'
 
 export default {
   name: 'App',
   components: {
-    MethodParamsExample
+    ReactivityExample
   }
 }
 </script>
 
 <template>
   <div>
-    <MethodParamsExample />
+    <ReactivityExample />
   </div>
 </template>
 
