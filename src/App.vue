@@ -1,23 +1,20 @@
 <script>
-import DateSelector from './components/DateSelector.vue';
-import WeekdaySelector from './components/WeekdaySelector.vue';
-import FullDateSelector from './components/FullDateSelector.vue';
+import InputToggle1 from './components/InputToggle1.vue';
+import InputToggle2 from './components/InputToggle2.vue';
+
 export default {
   name: 'App',
   components: {
-     DateSelector,
-     WeekdaySelector,
-     FullDateSelector
+    InputToggle1,
+    InputToggle2
  }
 }
 </script>
 
 <template>
   <div>
-  <DateSelector />
-  <WeekdaySelector/>
-  <FullDateSelector />
-
+  <InputToggle1 />
+  <InputToggle2 />
 
   </div>
 </template>
