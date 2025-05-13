@@ -1,17 +1,17 @@
 <script>
-import ConditionalLoopExample from './components/ConditionalLoopExample.vue'
+import KeyExample from './components/KeyExample.vue'
 
 export default {
   name: 'App',
   components: {
-    ConditionalLoopExample
+    KeyExample
   }
 }
 </script>
 
 <template>
   <div>
-    <ConditionalLoopExample />
+    <KeyExample />
   </div>
 </template>
 
