@@ -1,16 +1,13 @@
 <script>
-import ChildComponent from './components/ChildComponent.vue';
+import Employee from './components/Employee.vue';
 export default {
   name: 'App',
   components: {
-   ChildComponent
+   Employee
  }, 
   methods: {
-    firstFunction() {
-      alert('Первая функция вызвана!');
-    },
-    secondFunction() {
-      alert('Вторая функция вызвана!');
+    func(name) {
+      console.log('Полученное имя:', name);
     }
   }
 }
@@ -19,7 +16,7 @@ export default {
 <template>
   <div>
      <h2>Главный компонент</h2>
-    <ChildComponent @firstAction="firstFunction" @secondAction="secondFunction" />
+    <Employee name="Алим" @sendName="func" />
   </div>
 </template>
 
