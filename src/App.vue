@@ -1,9 +1,11 @@
 <script>
 import Employee from './components/Employee.vue';
+import EmployeeForm from './components/EmployeeForm.vue';
 
 export default {
   components: {
-    Employee
+    Employee,
+    EmployeeForm
   },
   data() {
     return {
@@ -15,22 +17,18 @@ export default {
     }
   },
   methods: {
-    updateEmployee(id, name, salary, age) {
-      this.employees = this.employees.map(employee => {
-        if (employee.id === id) {
-          employee.name = name;
-          employee.salary = salary;
-          employee.age = age;
-        }
-        return employee;
-      });
+    addEmployee(name, salary, age) {
+      let id = this.employees.length + 1;
+      this.employees.push({ id, name, salary, age });
     }
   }
 }
 </script>
+
 <template>
   <div>
     <h2>Список сотрудников</h2>
+    <EmployeeForm @add="addEmployee" />
     <Employee
       v-for="employee in employees"
       :key="employee.id"
@@ -38,7 +36,6 @@ export default {
       :name="employee.name"
       :salary="employee.salary"
       :age="employee.age"
-      @remove="removeEmployee"
     />
   </div>
 </template>
