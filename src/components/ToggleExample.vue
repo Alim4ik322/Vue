@@ -2,19 +2,25 @@
   <div>
     <!-- Первый абзац и кнопка -->
     <div class="toggle-group">
-      <button @click="toggleFirst">Тогглить первый абзац</button>
+      <button @click="toggleFirst">
+        {{ firstVisible ? 'Скрыть первый абзац' : 'Показать первый абзац' }}
+      </button>
       <p v-if="firstVisible">Первый абзац</p>
     </div>
 
     <!-- Второй абзац и кнопка -->
     <div class="toggle-group">
-      <button @click="toggleSecond">Тогглить второй абзац</button>
+      <button @click="toggleSecond">
+        {{ secondVisible ? 'Скрыть второй абзац' : 'Показать второй абзац' }}
+      </button>
       <p v-if="secondVisible">Второй абзац</p>
     </div>
 
     <!-- Третий абзац и кнопка -->
     <div class="toggle-group">
-      <button @click="toggleThird">Тогглить третий абзац</button>
+      <button @click="toggleThird">
+        {{ thirdVisible ? 'Скрыть третий абзац' : 'Показать третий абзац' }}
+      </button>
       <p v-if="thirdVisible">Третий абзац</p>
     </div>
   </div>
@@ -52,6 +58,7 @@ button {
   margin-right: 10px;
   padding: 5px 10px;
   cursor: pointer;
+  min-width: 200px;
 }
 
 p {
