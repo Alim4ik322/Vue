@@ -7,9 +7,11 @@ export default {
  }, 
  data() {
     return {
-      employeeName: 'Алим',
-      employeeSalary: 50000,
-      employeeAge: 30
+      users: [
+        { id: 1, name: 'name1', salary: 100, age: 30 },
+        { id: 2, name: 'name2', salary: 200, age: 40 },
+        { id: 3, name: 'name3', salary: 300, age: 50 }
+      ]
     }
   }
 }
@@ -17,8 +19,14 @@ export default {
 
 <template>
   <div>
-     <h2>Главный компонент</h2>
-    <Employee :items="itemList" />
+      <h2>Список работников</h2>
+    <Employee
+      v-for="user in users"
+      :name="user.name"
+      :salary="user.salary"
+      :age="user.age"
+      :key="user.id"
+    />
   </div>
 </template>
 
