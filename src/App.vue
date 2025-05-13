@@ -1,17 +1,17 @@
 <script>
-import MyComponent from './components/MyComponent.vue';
+import StyledParagraph from './components/StyledParagraph.vue';
 
 export default {
   name: 'App',
   components: {
-    MyComponent // Исправленный импорт
+        StyledParagraph
   }
 }
 </script>
 
 <template>
   <div>
-    <MyComponent />
+      <StyledParagraph />
   </div>
 </template>
 
