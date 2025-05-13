@@ -1,17 +1,17 @@
 <script>
-import HelperMethodsExample from './components/HelperMethodsExample.vue'
+import MethodParamsExample from './components/MethodParamsExample.vue'
 
 export default {
   name: 'App',
   components: {
-    HelperMethodsExample
+    MethodParamsExample
   }
 }
 </script>
 
 <template>
   <div>
-    <HelperMethodsExample />
+    <MethodParamsExample />
   </div>
 </template>
 
